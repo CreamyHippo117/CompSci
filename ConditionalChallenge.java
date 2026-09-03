@@ -19,7 +19,8 @@ public class ConditionalChallenge {
         else{
             System.out.println("Passed");
         }
-            
+            System.out.println("Score: " + score);
+
         System.out.println("--- Part 3: Season Determiner ---");
         int temp = 65;
         if(temp >= 81){
@@ -34,7 +35,7 @@ public class ConditionalChallenge {
         else if (temp <= 39){
             System.out.println("Season: Winter");
         }
-
+        System.out.println("Temperature: " + temp);
 
         System.out.println("--- Part 4: Number Classifier ---");
         int number = 42;
@@ -43,28 +44,28 @@ public class ConditionalChallenge {
             System.out.println(number + " is Positive");
         }
         else if (number == 0) {
-            System.out.println(number + " is Zero");
+            System.out.println(number + " is zero");
         }
         else if (number <= -1){
-            System.out.println(number + " is Negative");
+            System.out.println(number + " is negative");
         }
         if (number % 2 == 0){
             System.out.println(number + " is even");
         }
         else if (number % 2 != 0){
-            System.out.println(number + " is Odd");
+            System.out.println(number + " is odd");
         }
         if (number % 5 == 0) {
-            System.out.println(number + " is Multiple of 5");
+            System.out.println(number + " is a multiple of 5");
         }
-        if (number % 5 == 0){
-            System.out.println(number + " Is not a multiple of 5");
+        if (number % 5 != 0){
+            System.out.println(number + " is not a multiple of 5");
         }
         if (number % 3 == 0){
-            System.out.println(number + " is a Multiple of 3");
+            System.out.println(number + " is a multiple of 3");
         }
         if (number % 3 != 0){
-            System.out.println(number + " is not a Multiple of 3");
+            System.out.println(number + " is not a multiple of 3");
         }
         
             
