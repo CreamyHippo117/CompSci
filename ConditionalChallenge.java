@@ -1,5 +1,3 @@
-package Day3;
-
 public class ConditionalChallenge {
     public static void main(String[] args) {
          System.out.println("--- Part 1: Temperature Converter ---");
