@@ -25,41 +25,41 @@ public class ConditionalChallenge {
         System.out.println("--- Part 3: Season Determiner ---");
         int temp = 65;
         if(temp >= 81){
-            System.err.println("Season: Summer");
+            System.out.println("Season: Summer");
         }
         else if (temp >= 60){
-            System.err.println("Season: Spring");
+            System.out.println("Season: Spring");
         }
         else if (temp >= 40){
-            System.err.println("Season: Fall");
+            System.out.println("Season: Fall");
         }
         else if (temp <= 39){
-            System.err.println("Season: Winter");
+            System.out.println("Season: Winter");
         }
 
 
         System.out.println("--- Part 4: Number Classifier ---");
         int number = 42;
-        System.err.println("Number: " + number);
+        System.out.println("Number: " + number);
         if (number >= 1){
-            System.err.println(number + "is Positive");
+            System.out.println(number + " is Positive");
         }
         else if (number == 0) {
-            System.err.println(number + "is Zero");
+            System.out.println(number + " is Zero");
         }
         else if (number <= -1){
-            System.err.println(number + " is Negative");
+            System.out.println(number + " is Negative");
         }
         if (number % 2 == 0){
-            System.err.println(number + "is even");
+            System.out.println(number + " is even");
         }
         if (number % 2 != 0){
-            System.err.println(number + "is Odd");
+            System.out.println(number + " is Odd");
         if (number % 5 == 0) {
-            System.err.println(number + "is Multiple of 5");
+            System.out.println(number + " is Multiple of 5");
         }
         if (number % 3 == 0){
-            System.err.println(number + "is a Multiple of 3");
+            System.out.println(number + " is a Multiple of 3");
         }
         }
             
