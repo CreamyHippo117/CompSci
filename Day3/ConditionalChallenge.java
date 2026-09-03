@@ -53,15 +53,22 @@ public class ConditionalChallenge {
         if (number % 2 == 0){
             System.out.println(number + " is even");
         }
-        if (number % 2 != 0){
+        else if (number % 2 != 0){
             System.out.println(number + " is Odd");
+        }
         if (number % 5 == 0) {
             System.out.println(number + " is Multiple of 5");
+        }
+        if (number % 5 == 0){
+            System.out.println(number + " Is not a multiple of 5");
         }
         if (number % 3 == 0){
             System.out.println(number + " is a Multiple of 3");
         }
+        if (number % 3 != 0){
+            System.out.println(number + " is not a Multiple of 3");
         }
+        
             
         }
     }
