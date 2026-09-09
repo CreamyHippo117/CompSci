@@ -9,8 +9,8 @@ public class ArithmeticExpressions {
         
 
         System.out.println("Hours: " + hours);
-        System.out.println("Minutes : " + minutes);
-        System.out.println("Seconds : " + seconds);
+        System.out.println("Minutes: " + minutes);
+        System.out.println("Seconds: " + seconds);
         
 
 
