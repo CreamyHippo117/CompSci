@@ -28,7 +28,10 @@ public class ArithmeticExpressions {
         System.out.println("--- Part 3: Score Tracker ---");
         int score = 200;
         score += 150;
-        score = ((score * 2) - 50) / 5;
+        score *= 2;
+        score -= 50;
+        score /= 5; 
+
         System.out.println("Final Score: " + score);
 
         System.out.println("--- Part 4: Increment and Absolute Value ---");
