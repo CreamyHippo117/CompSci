@@ -1,3 +1,4 @@
+package Day4;
 public class ArithmeticExpressions {
     public static void main(String[] args) {
         System.out.println("--- Part 1: Time Breakdown ---");
