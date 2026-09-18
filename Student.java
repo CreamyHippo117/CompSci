@@ -26,7 +26,7 @@ public String getName(){
 public void setName(String newName){
     name = newName;
 }
-public String GetId(){
+public String getId(){
     return id;
 }
 public void setId(String newId){
