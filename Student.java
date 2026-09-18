@@ -44,7 +44,7 @@ public String toString(){
 }
 
 public boolean equals(Student other){
-  if(name == other.name && id == other.id && grade == other.grade) {
+  if(name.equals(other.name) && id.equals(other.id) && grade == other.grade) {
     return true;
   }
   else{
