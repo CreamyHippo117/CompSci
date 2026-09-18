@@ -1,4 +1,4 @@
-package Day5;
+
 
 public class Rectangle {
     private int length;
@@ -66,8 +66,8 @@ public class Rectangle {
             }
 
         }
-        else {
-            return false;
+        return false;
+
         }
             
         
@@ -75,4 +75,4 @@ public class Rectangle {
 
 
 
-}
+
