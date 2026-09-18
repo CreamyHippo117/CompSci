@@ -1,4 +1,4 @@
-package Day6;
+
 
 public class Student {
     private String name;
@@ -40,13 +40,25 @@ public void setGrade(int newGrade){
 }
 
 public String toString(){
-    return "";
+    return "Student" + name + "Id" + id + "Grade" + grade + ".";
 }
 
 public boolean equals(Student other){
-   if (name == other.name && )
+  if(name == other.name && id == other.id && grade == other.grade) {
+    return true;
+  }
+  else{
+    return false;
+  }
+   }
+
+   public String generateId(){
+        int first = (int) (Math.random() * 800) + 100;
+        int last = (int) (Math.random() * 9000) + 1000;
+        return first + "-" + last;
+    }
 }
-}
+
 
 
 
