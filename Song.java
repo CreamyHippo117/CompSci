@@ -48,14 +48,13 @@ public class Song {
         return titleLength;
     }
     public String getLabel(){
-        String label =  "\"" + title + "\"" + artist + "\"" + durationSeconds + "'\"";
-        return label;
+        return title + "-" + artist;
     }
     public String toString(){
-        return "";
+        return  "\"" + title + "\"" + artist + "\"" + durationSeconds + "'\"";
     }
     public boolean equals(Song other){
-        if(title == other.getTitle() && artist == other.getArtist() && durationSeconds == other.getDurationSeconds()){
+        if(title == other.getTitle() && artist.equals(other.getArtist())){
             return true;
         }
         else {
