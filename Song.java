@@ -3,9 +3,9 @@
 public class Song {
     private String title;
     private String artist;
-    private int durationSeconds;
+    private double durationSeconds;
 
-    public Song(String title, String artist, int durationSeconds){
+    public Song(String title, String artist, double durationSeconds){
         this.title = title;
         this.artist = artist;
         this.durationSeconds = durationSeconds;
@@ -29,10 +29,10 @@ public class Song {
     public void setArtist(String artist){
         this.artist = artist;
     }
-    public int getDurationSeconds(){
+    public double getDurationSeconds(){
         return durationSeconds;
     }
-    public void setDurationSeconds(int durationSeconds){
+    public void setDurationSeconds(double durationSeconds){
         this.durationSeconds = durationSeconds;
     }
     public double getDurationMinutes(){
