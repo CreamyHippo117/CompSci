@@ -29,7 +29,7 @@ public void depth(int NumberOfPeople) {
         System.out.println("I removed " + numberRemoved + "people for you! Now your submarine has the proper amount of 100 people!");
     }
     else {
-    \
+    
     
         System.out.println("Looks like your submarine is properly-sized!");
     }

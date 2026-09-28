@@ -1,3 +1,4 @@
+package Day7;
 public class SongTester {
     public static void main(String[] args) {
         Song song1 = new Song("Blinding Lights", "The Weeknd", 180);
