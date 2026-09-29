@@ -17,7 +17,8 @@ public class BooleanChecks {
     // to-do: implement isApproved
     public boolean isApproved(boolean firstVote, boolean secondVote,
             boolean thirdVote) {
-        return (!firstVote && !secondVote) || (!firstVote && !thirdVote) || (!secondVote && !thirdVote);
+        return (firstVote && secondVote) || (firstVote && thirdVote)
+         || (secondVote && thirdVote);
     }
 
     // Returns true for a leap year in the Gregorian calendar.
@@ -29,25 +30,26 @@ public class BooleanChecks {
     // Returns true when value is below low or above high. Both endpoints count as inside.
     // to-do: implement outsideRange
     public boolean outsideRange(int value, int low, int high) {
-        return (value >= low) || (value <= high);
+        return (value < low) || (value > high);
     }
 
     // Returns true when d divides n evenly. A divisor of 0 divides nothing.
     // to-do: implement divides
     public boolean divides(int d, int n) {
-        return (n % d == 0) && (d != 0);
+        return (d != 0) && (n % d == 0) ;
     }
 
     // Returns true when total / count is at least target. A count of 0 has no average.
     // to-do: implement averageAtLeast
     public boolean averageAtLeast(int total, int count, int target) {
-        return (total / count >= target) && (count != 0);
+        return (count != 0) && (total / count >= target);
     }
 
     // Returns true when word begins with prefix.
     // to-do: implement hasPrefix
     public boolean hasPrefix(String word, String prefix) {
-        return (word.length() >= prefix.length()) && (word.substring(0, prefix.length()).equals(prefix));
+        return (word.length() >= prefix.length()) && 
+        (word.substring(0, prefix.length()).equals(prefix));
     }
     
 }
